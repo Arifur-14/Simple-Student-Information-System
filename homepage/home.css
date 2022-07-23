@@ -1,0 +1,147 @@
+#header{
+	height:auto;
+	width:100%;
+	background: #1ca4ad;
+	text-align:center;	
+	padding-top:10px;
+	
+}
+#header{
+	width:960px;
+	margin:0 auto;
+	display:block;
+}
+#header image{
+	border-top:2px solid #1ca4ad;
+	height:80px;
+	width:80px;
+	
+}
+#header h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fdcb6e;
+	text-align:center;
+	display:inline;
+}
+#header h3{
+	font-family:  Arial, Helvetica, sans-serif;
+	color:#fdcb6e;
+	text-align:center;
+}
+#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	min-height:40px;
+	margin:0 auto;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+
+#menu li{
+	float:left;
+	border-right: .5px solid #0e1011;
+	border-left:  .5px solid #110e0e;
+	position:relative;
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#eaf1f7;
+	text-decoration:none;
+	background:#1ca4ad;
+	padding:11px 30px;
+	display:block;
+	transition:0.3s all ease;
+}
+#menu li a:hover{
+	background:#6ccdd4;
+}
+
+
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+	margin:0;
+	
+	/*transition:0.5s all ease;*/
+}
+#menu li:hover ul{
+	left:0;
+}
+
+#menu li ul li{
+	float:left;
+	border-right:none;
+	border-left:none;
+	border-top:		.5px solid #110e0e;
+	border-bottom:	.5px solid #110e0e;	
+	width:200px;
+	position:relative;
+	z-index:10;
+
+}
+
+#menu li ul li ul{
+	position:absolute;
+	top:-999999px;
+}
+#menu li ul li:hover ul{
+	top:0;
+	left:200px;
+}
+
+#footer{
+	width:940px;
+	margin:0 auto;
+	padding:10 10 0 0;
+	background:#1ca4ad;
+	text-align:center;
+	padding:10px 10px;
+}
+
+/*! http://responsiveslides.com v1.55 by @viljamis */
+
+.wrapper{
+	width:960px;
+	margin:0 auto;
+	display:block;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+  }
+
+.rslides li {
+	backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display:block;
+  height: 390px;
+  float: left;
+  width: 100%;
+  border: 0;
+  }	

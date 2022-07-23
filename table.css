@@ -1,0 +1,44 @@
+body {
+    font-size: 14px;
+}
+table{
+    font-family:  Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(even){background-color: #85c8e7;}
+tr:nth-child(odd){background-color: #5990a8;}
+tr:hover {
+    background: rgb(140, 192, 223);
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #009432;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background:#EA2027;
+
+}
+.msg {
+    margin: 30px auto; 
+    text-align: center;
+    padding: 10px; 
+    border-radius: 2px; 
+    color: #7fbabee0; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 25%;
+    text-align: center;
+}
